@@ -8,22 +8,24 @@
  */
 int main(void)
 {
-	int d = '0';
-	int a; 
-	
-	do
-	{
-		for (a = '1'; a <= '9'; a++)
+	int d = 0;
+	int a;
+
+	do {
+		for (a = 1; a <= 9; a++)
 		{
-			putchar(d);
-			putchar(a);
+			putchar(d + '0');
+			putchar(a + '0');
+			if (a + d != 17)
+			{
 			putchar(',');
 			putchar(' ');
+			}
 		}
 		d++;
-	
-	} while (d <= '8');
-	if ((d != '8') && (a != '9'))
+
+	} while (d <= 8);
+	if (a + d != 17)
 	{
 		putchar ('\n');
 	}
