@@ -10,9 +10,11 @@ int main(void)
 {
 	int d = 0;
 	int a;
+	int l = 0;
 
 	do {
-		for (a = 1; a <= 9; a++)
+		l++;
+		for (a = l; a <= 9; a++)
 		{
 			putchar(d + '0');
 			putchar(a + '0');
@@ -23,7 +25,6 @@ int main(void)
 			}
 		}
 		d++;
-
 	} while (d <= 8);
 	if (a + d != 17)
 	{
