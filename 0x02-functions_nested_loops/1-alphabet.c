@@ -1,4 +1,4 @@
-#include "main.h"
+#include "stdio.h"
 
 /**
  * alphabet_low - alphabet written in lowercase
@@ -7,13 +7,13 @@
  *
  * Return: characters
  */
-void alphabet_low(void)
+void print_alphabet()
 {
 	char a;
 
 	for (a = 'a'; a <= 'z'; a++)
 	{
 		putchar('a');
-		putchar('\n');
 	}
+	putchar('\n');
 }
