@@ -1,9 +1,9 @@
 #include "stdio.h"
 
 /**
- * alphabet_low - alphabet written in lowercase
+ * function - print lowercase
  *
- * give new line after print
+ * This is a function that prints the alphabet, in lowercase
  *
  * Return: characters
  */
@@ -13,7 +13,7 @@ void print_alphabet(void)
 
 	for (a = 'a'; a <= 'z'; a++)
 	{
-		putchar('a');
-		putchar('\n');
+		putchar(a);
 	}
+	putchar('\n');
 }
