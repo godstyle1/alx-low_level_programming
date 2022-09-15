@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * _islower - Entry point
+ * _islower - Entry point character
  *
- * This program checks alphabet for lowercase
+ * @c: This function has a parameter used for checking alphabet for lowercase
  *
  * Return: 1 or 0 if lowercase or not
  */
