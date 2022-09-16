@@ -9,7 +9,7 @@ int _isupper(int c)
 {
 	int uppercase = 1;
 
-	if (c == 'A')
+	if ((c >= 'A') && (c <= 'Z'))
 	{
 		return (uppercase);
 	}
