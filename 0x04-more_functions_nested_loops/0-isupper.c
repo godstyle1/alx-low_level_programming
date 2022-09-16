@@ -12,7 +12,6 @@ int _isupper(int c)
 	if (c == 'A')
 	{
 		return (uppercase);
-		_putchar('\n');
 	}
 	else
 	return (0);
