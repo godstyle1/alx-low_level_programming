@@ -27,5 +27,5 @@ int main(void)
 			printf("%d ", number);
 	}
 	printf("%c", '\n');
-	return (0);
+	return (number);
 }
