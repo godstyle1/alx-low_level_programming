@@ -5,7 +5,7 @@
  * main - print its name follow by a new line
  * @argc: argument count
  * *@argv: argument strings
- * Return: 0 to obtain path
+ * Return: 1 for error
  */
 int main(int argc, char *argv[])
 {
@@ -18,8 +18,9 @@ int main(int argc, char *argv[])
 		{
 			mul *= atoi(argv[i]);
 		}
+		printf("%d\n", mul);
 	}
-	printf("%d\n", mul);
-	return (0);
+	printf("Error");
+	return (1);
 }
 
