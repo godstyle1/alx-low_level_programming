@@ -20,7 +20,7 @@ int main(int argc, char *argv[])
 		}
 		printf("%d\n", mul);
 	}
-	printf("Error");
+	printf("Error\n");
 	return (1);
 }
 
