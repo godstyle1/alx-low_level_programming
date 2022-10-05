@@ -5,7 +5,7 @@
  * main - print its name follow by a new line
  * @argc: argument count
  * *@argv: argument strings
- * Return: 1 for error
+ * Return: 1
  */
 int main(int argc, char *argv[])
 {
